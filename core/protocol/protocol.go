@@ -28,16 +28,16 @@ type Network uint32
 // better idea to simply disconnect clients that are misbehaving over TCP.
 const (
 	// MainNet represents the main network.
-	MainNet Network = 0xb4c3dce8
+	MainNet Network = 0x6d61696e
 
 	// TestNet2 represents the test network.
-	TestNet Network = 0x35e0c424
+	TestNet Network = 0x74657374
 
 	// PrivNet represents the private test network.
-	PrivNet Network = 0xf1eb0001
+	PrivNet Network = 0x70697276
 
 	// MixNet represents the Mix Pow network.
-	MixNet Network = 0xc459b247
+	MixNet Network = 0x6d697878
 )
 
 // bnStrings is a map of networks back to their constant names for
